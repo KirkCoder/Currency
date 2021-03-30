@@ -43,6 +43,6 @@ class GetCurrenciesExchangeUseCase @Inject constructor(
     }
 
     companion object {
-        private const val SCALE_MODE = 2
+        private const val SCALE_MODE = 6
     }
 }

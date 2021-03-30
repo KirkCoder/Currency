@@ -18,6 +18,7 @@ import ru.kcoder.currency.presentation.base.BaseFragment
 import ru.kcoder.currency.presentation.base.ViewModelFactory
 import ru.kcoder.currency.presentation.base.initViewModel
 import ru.kcoder.currency.presentation.select.CurrenciesItemDecorator
+import ru.kcoder.currency.utils.hideKeyboard
 import javax.inject.Inject
 
 class CurrencyExchangeFragment : BaseFragment() {
@@ -64,6 +65,7 @@ class CurrencyExchangeFragment : BaseFragment() {
 
     private fun initListeners() {
         selectedCurrencyButton.setOnClickListener {
+            amountInputEditText.hideKeyboard()
             findNavController().navigate(R.id.action_CurrencyExchangeFragment_to_SelectCurrencyFragment)
         }
 
