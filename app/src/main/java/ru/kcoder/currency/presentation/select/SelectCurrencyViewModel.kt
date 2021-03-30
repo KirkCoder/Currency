@@ -6,8 +6,6 @@ import ru.kcoder.currency.config.RxSchedulers
 import ru.kcoder.currency.domain.usecases.GetAllCurrenciesUseCase
 import ru.kcoder.currency.domain.usecases.SelectCurrencyUseCase
 import ru.kcoder.currency.presentation.base.BaseViewModel
-import ru.kcoder.currency.presentation.select.AllCurrenciesPresentation
-import ru.kcoder.currency.presentation.select.CurrencyPresentation
 import timber.log.Timber
 import javax.inject.Inject
 

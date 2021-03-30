@@ -3,7 +3,6 @@ package ru.kcoder.currency.data.repository
 import io.reactivex.Completable
 import io.reactivex.Single
 import ru.kcoder.currency.config.DateTimeProvider
-import ru.kcoder.currency.data.dto.CurrenciesDto
 import ru.kcoder.currency.data.error.CantLoadCurrencyException
 import ru.kcoder.currency.data.network.ApiKeySource
 import ru.kcoder.currency.data.network.CurrencyApi

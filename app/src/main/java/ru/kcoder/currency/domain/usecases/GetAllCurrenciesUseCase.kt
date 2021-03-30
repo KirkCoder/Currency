@@ -1,7 +1,6 @@
 package ru.kcoder.currency.domain.usecases
 
 import io.reactivex.Single
-import ru.kcoder.currency.data.dto.CurrenciesDto
 import ru.kcoder.currency.domain.model.Currency
 import ru.kcoder.currency.domain.repository.AllCurrenciesRepository
 import javax.inject.Inject

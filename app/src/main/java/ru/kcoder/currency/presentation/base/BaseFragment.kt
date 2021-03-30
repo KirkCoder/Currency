@@ -7,13 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import androidx.lifecycle.observe
-import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.navGraphViewModels
-import kotlinx.android.synthetic.main.content_main.*
 import ru.kcoder.currency.App
-import ru.kcoder.currency.R
 
 abstract class BaseFragment : Fragment() {
 
